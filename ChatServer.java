@@ -38,16 +38,7 @@ public class ChatServer {
         commandMap.put("help", new HelpCommand()); //"HELP"コマンドのオブジェクトをマップに格納
         commandMap.put("name", new NameCommand()); //"NAME"コマンドのオブジェクトをマップに格納
         commandMap.put("whoami", new WhoamiCommand()); //"WHOAMI"コマンドのオブジェクトをマップに格納
-        commandMap.put("users", new UsersCommand()); //"USERS"コマンドのオブジェクトをマップに格納
-        commandMap.put("bye", new ByeCommand()); //"BYR"コマンドのオブジェクトをマップに格納
+        commandMap.put("bye", new ByeCommand()); //"BYE"コマンドのオブジェクトをマップに格納
         commandMap.put("post", new PostCommand()); //"POST"コマンドのオブジェクトをマップに格納
-        commandMap.put("tell", new TellCommand()); //"TELL"コマンドのオブジェクトをマップに格納
-        commandMap.put("reject", new RejectCommand()); //"REJECT"コマンドのオブジェクトをマップに格納
-        commandMap.put("create", new CreateCommand()); //"CREATE"コマンドのオブジェクトをマップに格納
-        commandMap.put("leave", new LeaveCommand()); //"LEAVE"コマンドのオブジェクトをマップに格納
-        commandMap.put("join", new JoinCommand()); //"JOIN"コマンドのオブジェクトをマップに格納
-        commandMap.put("group", new GroupCommand()); //"GROUP"コマンドのオブジェクトをマップに格納
-        commandMap.put("members", new MembersCommand()); //"MEMBERS"コマンドのオブジェクトをマップに格納
-        commandMap.put("ban", new BanCommand()); //"BAN"コマンドのオブジェクトをマップに格納
     }
 }
